@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@usedapp/core": "^1.2.10",
     "autoprefixer": "10.4.14",
+    "emoji-picker-react": "^4.4.9",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
+    "ethers": "^5.7.2",
     "next": "13.4.7",
     "postcss": "8.4.24",
+    "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
     "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "daisyui": "^3.1.6"
   }
 }
