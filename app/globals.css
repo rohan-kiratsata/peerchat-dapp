@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.message-textarea {
+  resize: none;
+  box-sizing: border-box;
+  height: auto;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
 .custom-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: #397524 #ffffff;

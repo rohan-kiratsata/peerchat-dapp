@@ -111,7 +111,7 @@ export default function Page() {
           </div>
 
           {/* Message Input */}
-          <div className="py-2 px-3 flex items-center sticky bg-[#2d353d] bottom-0">
+          <div className="py-2 px-3 flex h-fit items-center sticky bg-[#2d353d] bottom-0">
             {/* <EmojiPicker /> */}
             <PiSmiley size={28} onClick={handleEmojiPickerClick} p />
 
@@ -121,7 +121,7 @@ export default function Page() {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               onKeyDown={handleKeyPress}
-              class="input h-full w-full active:outline-none bg-[#2d353d] focus:outline-none"
+              class="input h-full w-full active:outline-none bg-[#2d353d] message-textarea  focus:outline-none"
             />
 
             {showEmojiPicker && (
