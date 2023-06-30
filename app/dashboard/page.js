@@ -7,6 +7,7 @@ import { PiSmiley } from "react-icons/pi";
 
 import EmojiPicker from "emoji-picker-react";
 import { useEffect, useRef, useState } from "react";
+import Sidenav from "./components/Sidenav";
 
 export default function Page() {
   const [showEmojiPicker, setShowEmojiPicker] = useState(false);
@@ -64,6 +65,9 @@ export default function Page() {
   return (
     <>
       <section className="flex">
+        <div>
+          <Sidenav />
+        </div>
         <aside>
           <Sidebar />
         </aside>
